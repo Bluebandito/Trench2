@@ -1,0 +1,347 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    float: center;
+    text-align: left;
+    font-family: "Arial";
+    background:rgb(42, 40, 40);
+    color: rgb(255, 255, 252);
+    max-width: 100%;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 200px
+}
+
+.navbar{
+  background-color: rgb(203, 202, 202);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 0px;
+  border-bottom: 5px solid rgb(168, 171, 171);
+  border-top: 5px solid rgb(167, 160, 159);
+}
+
+.navbar li{
+  text-decoration: none; 
+  list-style-type: none; 
+  font-family: "Calibri";
+}
+
+.navbar li a {
+  color: red;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.logo {
+  font-size: 30px; font-weight: 600; color: black; 
+}
+
+
+
+.nav-links li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-links li a{
+  color: Red ; font-size: 18px; font-weight: bold; margin-right: 25px
+}
+
+
+
+.pfp {
+  width: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 25%;
+}
+
+
+
+.desc1 {
+  text-align: left;
+  font-weight: bold;
+  color : rgb(183, 181, 181);
+  font-size: 25px;
+  padding-bottom: 100px;
+
+  .album-type {
+    color: rgb(183, 181, 181);
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  a {
+    color: rgb(183, 181, 181);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    font-size: 25px;
+  }
+
+}
+
+
+.album-count{
+  color: rgb(217, 70, 60);
+  font-size: 25px;
+ 
+}
+
+.sf-album {
+  padding-left: 18%;
+  padding-right: 22%;
+}
+
+.rab-album {
+  padding-left: 18%;
+  padding-right: 22%;
+  padding-bottom: 200px;
+}
+.label-albums {
+  padding-right: 22%;
+  padding-left: 12%;
+}
+
+
+img.album-cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(249, 249, 249);
+    margin: 10px;
+    margin-left: 15px;
+
+
+}
+
+p.desc{
+    padding-top: 10px;
+    padding-left: 10px;
+
+
+}
+
+
+h2 {
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-top: 100px;
+
+}
+
+.sf-title {
+    padding-left: 18%;
+  }
+
+h3 { 
+  padding-top: 50px;
+  padding-bottom: 0%;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.album-title {
+  padding-left: 20px;
+  padding-bottom: 0%;
+  text-align: left;
+}
+
+div.album-section {
+    padding-bottom: 10px;
+}
+
+
+.descwlink p, .descwlink a {
+    display: inline;
+    color: rgb(249, 249, 249);
+}
+
+.descwlink a {
+    color: rgb(217, 70, 60);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.descwlink {
+    float: left;
+}
+
+.album-summary {
+  list-style-type: none;
+  padding-left: 20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+
+
+
+em {
+    color : rgb(60, 209, 217);
+    font-weight: bold;
+}
+
+.sr-album-cover {
+  width: fit-content;
+  height: 270px;
+  position: relative;
+  left: 150px;
+  margin-left: wrap;
+  padding-left: wrap;
+}
+
+
+.twenty-one-pilots-album {
+  padding-left: 5%;
+  padding-top: 0%;
+  padding-right: -30px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.twenty-one-pilots-album .p {
+  float: left;
+}
+
+.twenty-one-pilots-album .sr-album-cover {
+  height: 350px;
+  width: fit-content;
+  margin-left: wrap;
+  padding-left: wrap;
+}
+
+.album-desc li {
+  font-size: 19px;
+  margin-bottom: 0px;
+}
+
+.sr-album-cover:hover {
+  transform: scale(1.05);
+  background-color:rgba(53, 51, 51, 0.615);
+  transition: transform 0.3s ease;
+}
+
+.album-cover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+ 
+.regional-at-best-album {
+  padding-right: -30px;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+
+
+.vessel_album {
+  background-image: 
+    linear-gradient(rgba(238, 232, 232, 0.5), rgba(0, 0, 0, 0.4)),
+    url('https://i.scdn.co/image/ab67616d0000b2736caad685af37c08063be928d');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: fit-content;
+  color: white;
+  padding: 50px;
+}
+
+
+.blurryface_album {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url('https://upload.wikimedia.org/wikipedia/en/7/7d/Blurryface_by_Twenty_One_Pilots.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: fit-content;
+  color: white;
+  padding: 50px;
+  border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.trench_album {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url('https://i.scdn.co/image/ab67616d0000b273d1d301e737da4324479c6660');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: fit-content;
+  color: white;
+  padding: 50px;
+}
+
+.scaled_icy_album {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url('https://i.scdn.co/image/ab67616d00001e027c693d6ed6dff0d48cf15c23');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: fit-content;
+  color: white;
+  padding: 50px;
+}
+
+.clancy_album {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url('https://i.scdn.co/image/ab67616d0000b273cc94dd4730132ccfbd617bf9');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: fit-content;
+  color: white;
+  padding: 50px;
+}
+
+.breach_album {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url('https://i.scdn.co/image/ab67616d0000b2739c5a3160cc1a6ef5efdaf80a');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: fit-content;
+  color: white;
+  padding: 50px;
+}
+
