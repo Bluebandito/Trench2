@@ -1,0 +1,151 @@
+
+@keyframes FadeIn{
+    from {opacity: 0;  scale:(0.5);}
+    to {opacity:1; scale:(1);}
+}
+
+
+@keyframes Fadeandgrow{
+    from {opacity:0;  transform: scale(0.5);}
+    to {opacity:1; transform: scale(3); TranslateY:(-50%);}
+}
+
+@keyframes Fadeout{
+    from {opacity:1;  scale:(1);}
+    to {opacity:0; scale:(0.5);}
+}
+
+
+#Trapezoid {
+    /* The shape of the trapezoid that will be used for the navbar. It is empty in the home page because the piano at the bottom will be used as the navbar instead */
+    height: 50px;
+    width: 1000px;
+    background-color: red;
+    clip-path: polygon( 0 0, 100% 0, 96% 100%, 4% 100%);
+    
+    position: fixed;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    padding: 0;
+    line-height: 0;
+}
+
+.line1 {
+    display:block;
+}
+
+.navbar {
+    height: 600px;
+    width:auto;
+
+}
+
+
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.Title {
+    background-color: rgb(55, 52, 52);
+    color: rgb(255, 255, 252);
+    padding: 200px 0 125px;
+    margin: 0;
+}
+
+
+
+.Title h1 {
+    font-size: 60px;
+    margin: 0;
+    padding-top: 200px;
+    padding-bottom: 0px;
+}
+
+.Title h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 50px;
+    color: rgb(180, 2, 2);
+}
+
+.Title {
+    height: 500vh;
+    position: relative;
+}
+
+.title-text {
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+}
+
+.Title .title-text > * {
+    opacity: 0.1;
+}
+
+.Welcome {
+    animation: 
+        FadeIn 5s linear 0s forwards,
+        Fadeout 5s ease-out 2s forwards;
+    animation-timeline: view();
+    
+}
+
+.Page-title {
+    animation: Fadeandgrow 1s linear;
+    animation-timeline: view();
+    animation-delay: 1s;
+}
+
+.Page-credit {
+    animation: FadeIn 5s linear;
+    animation-timeline: view(inset 100px 0px 0px 0px); 
+    animation-delay: 3s;
+}
+
+
+
+
+.box2 {
+    background: linear-gradient(to bottom, rgb(55, 52, 52), rgb(203, 202, 202));
+    color: rgb(255, 255, 252);
+    padding: 50px 0px 50px 0px; 
+    margin-bottom: 10px;
+   
+}
+
+.footer {
+    background:color-mix(in hsl, rgb(55, 52, 52) 75%, red 10%);
+    color: rgb(255, 255, 252);
+    padding: 0px 0px 50px 0px;
+
+}
+
+#logo {
+    width: 200px;
+}
+
+.buttons {
+    position: relative;
+    top: 15px;
+
+}
+
+
+.buttons button {
+    position: absolute;
+    top: -500px;
+    background-color: rgb(55, 52, 52);
+    color: rgb(255, 255, 252);
+    height: auto;
+    width: fit-content;
+    font-size: 16px;
+
+}
