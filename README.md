@@ -1,4 +1,4 @@
-This is my first wensite. 
+This is my first website. 
 It is an expirmental website that is themed as a fan page about Twenty One Pilots (my favorite band).
 Made Using only CSS and HTML :D
 
